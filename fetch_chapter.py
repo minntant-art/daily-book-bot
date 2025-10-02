@@ -51,7 +51,7 @@ def main():
 
     source = books[book]
     # build URL
-    url = None
+    url = "https://github.com/minntant-art/daily-book-bot/blob/main/book/chapters.txt"
     if source.get("type") == "pattern":
         url = source["pattern"].format(chapter=chapter)
     elif source.get("type") == "list":
