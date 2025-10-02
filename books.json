@@ -1,0 +1,15 @@
+{
+  "Atomic Habits": {
+    "type": "pattern",
+    "pattern": "https://example.com/books/atomic-habits/chapter{chapter}.txt",
+    "file_prefix": "atomic-habits"
+  },
+  "Another Book": {
+    "type": "list",
+    "list": [
+      "https://example.com/books/another/book_ch1.txt",
+      "https://example.com/books/another/book_ch2.txt"
+    ],
+    "file_prefix": "another-book"
+  }
+}
